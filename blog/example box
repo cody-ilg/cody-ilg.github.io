@@ -1,0 +1,7 @@
+.thanos {
+  width: 300px;
+  height: 200px;
+  border: 15px solid brown;
+  padding: 50px solid blue;
+  margin: 20px solid pink;
+}

@@ -1,28 +1,41 @@
 <html>
-  <link href="../styles/main.css" rel="stylesheet" type="text/css" />
   <head>
-    <h2>Blog 1</h2>
-    <h3>Margin, Boarder and Padding!</h3>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <h1>Margin, Boarder and Padding! The CSS box model</h1>
+    <h3></h3>
     <p>
-      Margin, boarder and padding are tools we can use to control the shape and
-      spacing of different content "boxes" within a website page. Before popping
-      open the hood and getting technical, lets start with an analogy!
+      The CSS box model describes the box that wraps around every HTML element
+      on a page. Margin, boarder and padding are tools we can use to control the
+      shape and spacing of these html element "boxes". Before popping open the
+      hood and getting more technical, lets start with an analogy!
+    </p>
+    <img class="imgcentre" src="Images/css-box.png" alt="box model example" />
+    <p>
+      Imagine your website page is actually a warehouse filled with boxes. The
+      contents of a box, say a Limited edition golden thanos Funko Pop™, is the
+      content (text or images). We want to protect our collectable, so we put
+      some packaging around Thanos. This is the padding, which dictates how much
+      space is between Thanos and the box he is contained in. Our boarder is the
+      box itself, and can be made as thick or thin as we want, or even
+      invisible! The margin is the empty space we leave between our box and
+      other boxes around it, aswell as the walls (edge of the page).
+    </p>
+
+    <p>
+      Now we have a basic understanding of the three parts of a CSS box, lets
+      see what a basic implementation of them would look like.
     </p>
     <div>
-      <img
-        src="/cody-ilg.github.io/styles/Images/css-box.png"
-        alt="box model example"
-      />
+      <p class="examplebox">
+        The code on the right defines a css box that looks like this.
+      </p>
+      ><img class="examplecoderight" src="Images/egcode.png" />
     </div>
-    <p>
-      Imagine you are managing a warehouse filled with boxes. The contents of a
-      box, say a Limited edition golden thanos Funko Pop™, is the core. We want
-      to protect our collectable, so we put some packaging around Thanos. This
-      is the padding. Our boarder is the box itself, and can be made as thick as
-      we want. The boarder can also be invisible! The margin is the space we
-      leave between our box and other boxes aswell as the walls of the shelve.
-    </p>
   </body>
+  <footer>
+    <a href="../index.html">Back to home</a>
+  </footer>
 </html>
+<img />
