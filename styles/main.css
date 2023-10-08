@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgb(201, 201, 201), rgb(112, 112, 112));
+  background-image: linear-gradient(rgb(255, 231, 182), rgb(151, 96, 29));
   display: grid;
   grid-template-rows: auto 1fr auto;
   margin: 0;
@@ -45,9 +45,9 @@ h1 {
 }
 h2 {
   max-width: 1000px;
-  width: 60%;
+  width: 100%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 0px;
   padding: 20px 10px 20px 10px;
   text-align: center;
   border: 5px;
